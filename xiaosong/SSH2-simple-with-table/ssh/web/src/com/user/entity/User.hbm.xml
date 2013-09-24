@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.user.entity">
+	<class name="User" table="user">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="name" unique="true"></property>
+		<property name="password"></property>
+		<property name="sex"></property>
+		<property name="age"></property>
+		<property name="school"></property>
+		<property name="mobile"></property>
+		<property name="email"></property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/apps/blank/src/main/java"/>
+	<classpathentry kind="src" path="src/apps/blank/src/test/java"/>
+	<classpathentry kind="src" path="src/apps/mailreader/src/main/java"/>
+	<classpathentry kind="src" path="src/apps/portlet/src/main/java"/>
+	<classpathentry kind="src" path="src/apps/portlet/src/test/java"/>
+	<classpathentry kind="src" path="src/apps/rest-showcase/src/main/java"/>
+	<classpathentry kind="src" path="src/apps/rest-showcase/src/test/java"/>
+	<classpathentry excluding="org/apache/struts2/showcase/person/" kind="src" path="src/apps/showcase/src/main/java"/>
+	<classpathentry kind="src" path="src/apps/showcase/src/main/java/org/apache/struts2/showcase/person"/>
+	<classpathentry kind="src" path="src/apps/showcase/src/test/java"/>
+	<classpathentry kind="src" path="src/bundles/admin/src/main/java"/>
+	<classpathentry kind="src" path="src/bundles/demo/src/main/java"/>
+	<classpathentry kind="src" path="src/core/src/main/java"/>
+	<classpathentry kind="src" path="src/core/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/cdi/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/cdi/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/codebehind/src/main/java"/>
+	<classpathentry excluding="org/apache/struts2/config/parenttest/" kind="src" path="src/plugins/codebehind/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/codebehind/src/test/java/org/apache/struts2/config/parenttest"/>
+	<classpathentry kind="src" path="src/plugins/config-browser/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/convention/src/main/java"/>
+	<classpathentry excluding="org/apache/struts2/convention/actions/parentpackage/|org/apache/struts2/convention/actions/resultpath/|org/apache/struts2/convention/actions/namespace4/|org/apache/struts2/convention/actions/namespace/|org/apache/struts2/convention/actions/defaultinterceptor/" kind="src" path="src/plugins/convention/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/convention/src/test/java/org/apache/struts2/convention/actions/defaultinterceptor"/>
+	<classpathentry kind="src" path="src/plugins/convention/src/test/java/org/apache/struts2/convention/actions/namespace"/>
+	<classpathentry kind="src" path="src/plugins/convention/src/test/java/org/apache/struts2/convention/actions/namespace4"/>
+	<classpathentry kind="src" path="src/plugins/convention/src/test/java/org/apache/struts2/convention/actions/parentpackage"/>
+	<classpathentry kind="src" path="src/plugins/convention/src/test/java/org/apache/struts2/convention/actions/resultpath"/>
+	<classpathentry kind="src" path="src/plugins/dojo/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/dojo/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/dwr/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/embeddedjsp/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/embeddedjsp/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/gxp/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/jasperreports/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/javatemplates/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/javatemplates/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/jfreechart/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/jfreechart/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/jsf/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/json/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/json/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/junit/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/junit/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/osgi/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/osgi/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/oval/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/oval/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/pell-multipart/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/plexus/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/portlet/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/portlet/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/rest/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/rest/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/sitegraph/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/sitegraph/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/sitemesh/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/spring/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/spring/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/struts1/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/struts1/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/testng/src/main/java"/>
+	<classpathentry kind="src" path="src/plugins/testng/src/test/java"/>
+	<classpathentry kind="src" path="src/plugins/tiles/src/main/java"/>
+	<classpathentry kind="src" path="src/xwork-core/src/main/java"/>
+	<classpathentry kind="src" path="src/xwork-core/src/test/java"/>
+	<classpathentry kind="lib" path="src/plugins/embeddedjsp/src/test/resources/jsps.jar"/>
+	<classpathentry kind="lib" path="src/xwork-core/src/test/resources/xwork - jar.jar"/>
+	<classpathentry kind="lib" path="src/xwork-core/src/test/resources/xwork-jar.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/sino-i/桌面/手册/jar&amp;源码包/jee/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/sino-i/桌面/手册/jar&amp;源码包/jee/jsp-api.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker-2.3.18.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

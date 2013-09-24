@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE struts SYSTEM "http://struts.apache.org/dtds/struts-2.0.dtd" >-->
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="example" namespace="/example"
+		extends="struts-default">
+		<action name="hello" class="com.user.action.HelloAction">
+			<result name="success">/jsp/hello.jsp</result>
+		</action>
+	</package>
+
+	<package name="user" namespace="/system" extends="struts-default">
+		<action name="register"
+			class="com.user.action.RegisterAction">
+			<result name="success">/jsp/login.jsp</result>
+			<result name="fail">/jsp/register.jsp</result>
+		</action>
+		<action name="login" class="com.user.action.LoginAction">
+			<result name="success">/jsp/usermodify.jsp</result>
+			<result name="fail">/jsp/error.jsp</result>
+		</action>
+		
+		<action name="modify" class="com.user.action.ModifyAction">
+			<result name="success">/jsp/usermodify.jsp</result>
+			<result name="fail">/jsp/error.jsp</result>
+		</action>
+		<action name="userlist"
+			class="com.user.action.UserListAction">
+			<result name="success">/jsp/userlist.jsp</result>
+			<result name="fail">/jsp/register.jsp</result>
+		</action>
+	</package>
+</struts>
