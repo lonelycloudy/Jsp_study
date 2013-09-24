@@ -1,0 +1,595 @@
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.run(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@1855af5
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@169e11
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.destroy()
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class this.is.an.not.found.Class
+org.tuckey.web.filters.urlrewrite.Run ERROR: could not find this.is.an.not.found.Class got a java.lang.ClassNotFoundException: this.is.an.not.found.Class
+java.lang.ClassNotFoundException: this.is.an.not.found.Class
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:276)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.tuckey.web.filters.urlrewrite.Run.prepareRunObject(Run.java:252)
+	at org.tuckey.web.filters.urlrewrite.Run.initialise(Run.java:188)
+	at org.tuckey.web.filters.urlrewrite.Run.initialise(Run.java:133)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunBadObj(RunTest.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: not valid skipping
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: badMethod
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for badMethod(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for badMethod(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for badMethod(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for badMethod(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for badMethod(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for badMethod(javax.servlet.http.HttpServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for badMethod(javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run ERROR: could not find method with the name badMethod on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: not valid skipping
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runThatReturns
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runThatReturns(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runThatReturns(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runThatReturns(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runThatReturns(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runThatReturns(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runThatReturns(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@1858610
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@12498b5
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithNoParams()
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithNoParams with specific params
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithNoParams 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: nonDefaultRun
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.nonDefaultRun(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@181afa3
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@131f71a
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithParam(  int )
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class int for int
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithParam with specific params
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithParam(int) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (int): 99
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithParam(  int  id )
+org.tuckey.web.filters.urlrewrite.Run DEBUG: param name: id
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class int for int
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithParam with specific params
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithParam(int) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: need parameter from request called id
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (int): 99
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithChainParam( req, res, chain )
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class interface javax.servlet.http.HttpServletRequest for req
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class interface javax.servlet.http.HttpServletResponse for res
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class interface javax.servlet.FilterChain for chain
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithChainParam with specific params
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithChainParam(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, javax.servlet.FilterChain) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@108786b
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@119c082
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 2 (javax.servlet.FilterChain): org.tuckey.web.testhelper.MockFilterChain@1add2dd
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithPrimitiveParam(int,  char , double, float,short, byte , boolean , String)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class int for int
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class char for char
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class double for double
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class float for float
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class short for short
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class byte for byte
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class boolean for boolean
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.String for String
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithPrimitiveParam with specific params
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithPrimitiveParam(int, char, double, float, short, byte, boolean, java.lang.String) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (int): 0
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (char): 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 2 (double): 0.0
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 3 (float): 0.0
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 4 (short): 0
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 5 (byte): 0
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 6 (boolean): false
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 7 (java.lang.String): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithPrimitiveParam(int, char, double, float, short, byte, boolean, java.lang.String) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (int): 12
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (char): x
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 2 (double): 11.0
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 3 (float): 11.58
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 4 (short): 2
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 5 (byte): 1
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 6 (boolean): true
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 7 (java.lang.String): abcd
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithObjParam(Integer , Character , Double , Float , Short , Byte , Boolean , String )
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.Integer for Integer
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.Character for Character
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.Double for Double
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.Float for Float
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.Short for Short
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.Byte for Byte
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.Boolean for Boolean
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class class java.lang.String for String
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithObjParam with specific params
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithObjParam(java.lang.Integer, java.lang.Character, java.lang.Double, java.lang.Float, java.lang.Short, java.lang.Byte, java.lang.Boolean, java.lang.String) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (java.lang.Integer): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (java.lang.Character): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 2 (java.lang.Double): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 3 (java.lang.Float): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 4 (java.lang.Short): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 5 (java.lang.Byte): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 6 (java.lang.Boolean): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 7 (java.lang.String): null
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithObjParam(java.lang.Integer, java.lang.Character, java.lang.Double, java.lang.Float, java.lang.Short, java.lang.Byte, java.lang.Boolean, java.lang.String) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (java.lang.Integer): 12
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (java.lang.Character): x
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 2 (java.lang.Double): 11.0
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 3 (java.lang.Float): 11.58
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 4 (java.lang.Short): 2
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 5 (java.lang.Byte): 1
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 6 (java.lang.Boolean): true
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 7 (java.lang.String): abcd
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runNullPointerException
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runNullPointerException(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runNullPointerException(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runNullPointerException(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runNullPointerException(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runNullPointerException(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+this...
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runNullPointerException(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@f5da06
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@bd0108
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.tuckey.web.filters.urlrewrite.Run.invokeRunMethod(Run.java:416)
+	at org.tuckey.web.filters.urlrewrite.Run.execute(Run.java:534)
+	at org.tuckey.web.filters.urlrewrite.RunTest.doExceptionRun(RunTest.java:229)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunExceptionMethod(RunTest.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+Caused by: java.lang.NullPointerException
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doNullPointer(TestRunObj.java:171)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runNullPointerException(TestRunObj.java:142)
+	... 23 more
+should look the same as this...
+java.lang.NullPointerException
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doNullPointer(TestRunObj.java:171)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runNullPointerException(TestRunObj.java:142)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunExceptionMethod(RunTest.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runServletException
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runServletException(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runServletException(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runServletException(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runServletException(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runServletException(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+this...
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runServletException(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@11a698a
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@107077e
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.tuckey.web.filters.urlrewrite.Run.invokeRunMethod(Run.java:416)
+	at org.tuckey.web.filters.urlrewrite.Run.execute(Run.java:534)
+	at org.tuckey.web.filters.urlrewrite.RunTest.doExceptionRun(RunTest.java:229)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunServletExceptionMethod(RunTest.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+Caused by: javax.servlet.ServletException: serv
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doServlet(TestRunObj.java:179)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runServletException(TestRunObj.java:152)
+	... 23 more
+should look the same as this...
+javax.servlet.ServletException: serv
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doServlet(TestRunObj.java:179)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runServletException(TestRunObj.java:152)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunServletExceptionMethod(RunTest.java:258)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runCustomException
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runCustomException(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runCustomException(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runCustomException(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runCustomException(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runCustomException(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+this...
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runCustomException(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@765291
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@26e431
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.tuckey.web.filters.urlrewrite.Run.invokeRunMethod(Run.java:416)
+	at org.tuckey.web.filters.urlrewrite.Run.execute(Run.java:534)
+	at org.tuckey.web.filters.urlrewrite.RunTest.doExceptionRun(RunTest.java:229)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunCustomExceptionMethod(RunTest.java:268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+Caused by: org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator$CustomException
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doCustom(TestRunObj.java:187)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runCustomException(TestRunObj.java:162)
+	... 23 more
+should look the same as this...
+org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator$CustomException
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doCustom(TestRunObj.java:187)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runCustomException(TestRunObj.java:162)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunCustomExceptionMethod(RunTest.java:273)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runIOException
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runIOException(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runIOException(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runIOException(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runIOException(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runIOException(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+this...
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runIOException(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@1ddebc3
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@a18aa2
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.tuckey.web.filters.urlrewrite.Run.invokeRunMethod(Run.java:416)
+	at org.tuckey.web.filters.urlrewrite.Run.execute(Run.java:534)
+	at org.tuckey.web.filters.urlrewrite.RunTest.doExceptionRun(RunTest.java:229)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunIOExceptionMethod(RunTest.java:283)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+Caused by: java.io.IOException: me i.o. has gone crazy
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doIO(TestRunObj.java:183)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runIOException(TestRunObj.java:157)
+	... 23 more
+should look the same as this...
+java.io.IOException: me i.o. has gone crazy
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doIO(TestRunObj.java:183)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runIOException(TestRunObj.java:157)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunIOExceptionMethod(RunTest.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runRuntiumeException
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runRuntiumeException(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runRuntiumeException(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runRuntiumeException(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runRuntiumeException(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runRuntiumeException(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+this...
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runRuntiumeException(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@17590db
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@17943a4
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.tuckey.web.filters.urlrewrite.Run.invokeRunMethod(Run.java:416)
+	at org.tuckey.web.filters.urlrewrite.Run.execute(Run.java:534)
+	at org.tuckey.web.filters.urlrewrite.RunTest.doExceptionRun(RunTest.java:229)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunRuntimeExceptionMethod(RunTest.java:298)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+Caused by: java.lang.RuntimeException: shit!
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doRuntime(TestRunObj.java:175)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runRuntiumeException(TestRunObj.java:147)
+	... 23 more
+should look the same as this...
+java.lang.RuntimeException: shit!
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj$TestExceptionGenerator.doRuntime(TestRunObj.java:175)
+	at org.tuckey.web.filters.urlrewrite.test.TestRunObj.runRuntiumeException(TestRunObj.java:147)
+	at org.tuckey.web.filters.urlrewrite.RunTest.testRunRuntimeExceptionMethod(RunTest.java:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: privateRun
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for privateRun(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for privateRun(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for privateRun(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for privateRun(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for privateRun(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for privateRun(javax.servlet.http.HttpServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for privateRun(javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run ERROR: could not find method with the name privateRun on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: not valid skipping
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.run(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@47858e
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@19134f4
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.destroy()
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.run(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@47858e
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@19134f4
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.destroy()
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, null 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.run(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@16f0472
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@18d107f
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: 'to' is empty, no rewrite, only 'set' and or 'run'
+

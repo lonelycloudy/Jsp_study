@@ -1,0 +1,65 @@
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteEngine on
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: RewriteEngine value parsed as 'on'
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: RewriteEngine as boolean 'true'
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteEngine off
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: RewriteEngine value parsed as 'off'
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: RewriteEngine as boolean 'false'
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteLog "SYSOUT"
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: RewriteLog parsed as SYSOUT
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteLogLevel 9
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: found a RewriteLogLevel
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: RewriteLogLevel parsed as 9
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: # redirect mozilla to another area
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: adding note line (line starting with #)
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteCond  %{HTTP_USER_AGENT}  ^Mozilla.*
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: about to parse condition
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteRule  ^/$                 /homepage.max.html  [L]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: got rule ^/$                 /homepage.max.html  [L]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part ^/$
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part /homepage.max.html
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part [L]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: setting log to: SYSOUT:DEBUG
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: # redirect mozilla to another area
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: adding note line (line starting with #)
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteCond  %{HTTP_USER_AGENT}  ^Mozilla.*
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: about to parse condition
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteRule  ^/$                 /homepage.max.html  [L]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: got rule ^/$                 /homepage.max.html  [L]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part ^/$
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part /homepage.max.html
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part [L]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteRule ^/$     http://www.foo.com [R]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: got rule ^/$     http://www.foo.com [R]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part ^/$
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part http://www.foo.com
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part [R]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteRule ^/$     http://www.foo.com [R=301]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: got rule ^/$     http://www.foo.com [R=301]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part ^/$
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part http://www.foo.com
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part [R=301]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: # mobile redirect
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: adding note line (line starting with #)
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteCond %{HTTP_HOST} from.com
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: about to parse condition
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteCond %{HTTP:accept} (hdml|wml|xhtml-mp|vnd\.wap\.) [OR]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: about to parse condition
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteCond %{HTTP:x-wap-profile} .+ [OR]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: about to parse condition
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteCond %{HTTP:user-agent} (Windows\ CE) [OR]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: about to parse condition
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteCond %{HTTP:user-agent} (iPhone) [OR]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: about to parse condition
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteCond %{HTTP:user-agent} (iPod) [OR]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: about to parse condition
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteRule ^(.*)$ http://to.com [L,R]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: got rule ^(.*)$ http://to.com [L,R]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part ^(.*)$
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part http://to.com
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part [L,R]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: processing line: RewriteRule ^/$     http://www.foo.com [R=302]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: got rule ^/$     http://www.foo.com [R=302]
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part ^/$
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part http://www.foo.com
+org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader DEBUG: parsed rule part [R=302]
+

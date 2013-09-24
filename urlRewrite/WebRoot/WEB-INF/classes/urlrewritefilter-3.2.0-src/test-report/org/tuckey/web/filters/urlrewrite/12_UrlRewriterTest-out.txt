@@ -1,0 +1,227 @@
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/aaa, /bbb 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/aaa, /bbb 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /aaa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /aaa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /bbb
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /aaa
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: query string added
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /aaa?bb=cc
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /bbb?bb=cc
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /aaa%20
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /aaa%20
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /bbb%20
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/ca&amp;t/(.*)$, /search/?c=y&amp;q=$1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/ca&amp;t/(.*)$, /search/?c=y&amp;q=$1 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /ca&amp;t/abc
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /ca&amp;t/abc
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /search/?c=y&amp;q=abc
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^(.*)$, http://sss.sss.sss 2)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^(.*)$, http://sss.sss.sss 2)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /aaa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /aaa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be permanentely redirected to http://sss.sss.sss
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /aaa
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: there are no rules setup.  not rewriting request.
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/aaa([0-9]+)(.*)$, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/aaa([0-9]+)(.*)$, null 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /aaa4?asdadasd
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /aaa4?asdadasd
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set request blah someval called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request attrib
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set session sblah $1 called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting session attrib
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set response-header Cache-control none called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting response header
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set request action delete called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request attrib
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: 'to' is empty, no rewrite, only 'set' and or 'run'
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/bbb([0-9]+), /qqq 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/bbb([0-9]+), /qqq 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 1 (^/aaa([0-9]+)$, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 1 (^/aaa([0-9]+)$, null 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /bbb2?asdadasd
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /bbb2?asdadasd
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /qqq?asdadasd
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 1 run called with /qqq?asdadasd
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule's from is blank, setting to ^(.*)$
+org.tuckey.web.filters.urlrewrite.NormalRule ERROR: Rule Rule 0 had error: to is not valid because it is blank (it is allowed to be blank when there is a 'set' specified)
+org.tuckey.web.filters.urlrewrite.RuleBase ERROR: to is not valid because it is blank (it is allowed to be blank when there is a 'set' specified)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^(.*)$, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: failed to load rule
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status false
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /aaa
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: configuration is not ok.  not rewriting request.
+Establishing benchmark
+iteration took: 5061ms (result: 2.4657431741274536)
+iteration took: 5046ms (result: 2.4651928627555173)
+iteration took: 4921ms (result: 2.454027633744036)
+average of 4984ms after 2 iterations
+using 1.4952ms per rule as the standard
+avg so far 1.468ms per rule
+avg so far 1.406ms per rule
+avg so far 1.396ms per rule
+avg so far 1.3905ms per rule
+avg so far 1.406ms per rule
+avg so far 1.4113333ms per rule
+avg so far 1.4194286ms per rule
+avg so far 1.41775ms per rule
+avg so far 1.4164444ms per rule
+avg so far 1.428ms per rule
+avg so far 1.4287273ms per rule
+avg so far 1.4295ms per rule
+avg so far 1.4301538ms per rule
+avg so far 1.4284285ms per rule
+avg so far 1.4332ms per rule
+avg so far 1.4315ms per rule
+avg so far 1.4281176ms per rule
+avg so far 1.425111ms per rule
+avg so far 1.420842ms per rule
+took 14154ms 1.4154ms  per rule
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header accept .*image/gif.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header accept .*image/jpeg.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header accept .*image/png.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header user-agent SonyEricssonT68.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header accept .*image/gif.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header accept .*image/jpeg.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 1 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 1 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header accept .*image/png.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 2 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 2 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header user-agent SonyEricssonT68.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 3 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 3 (.*, null 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /images/my.png
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /images/my.png
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "image/png,*/*;q=0.5" against .*image/gif.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 1 run called with /images/my.png
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "image/png,*/*;q=0.5" against .*image/jpeg.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 2 run called with /images/my.png
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "image/png,*/*;q=0.5" against .*image/png.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set request imageType png called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request attrib
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: 'to' is empty, no rewrite, only 'set' and or 'run'
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 3 run called with /images/my.png
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against SonyEricssonT68.*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/test decode/(.+?)$, /TestHandler$1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/test decode/(.+?)$, /TestHandler$1 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /test decode/?string=black&white green
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /test decode/?string=black&white green
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /TestHandler?string=black&white green
+org.tuckey.web.filters.urlrewrite.Conf ERROR: inputstream is null
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithChainParam( req, res, chain )
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class interface javax.servlet.http.HttpServletRequest for req
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class interface javax.servlet.http.HttpServletResponse for res
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class interface javax.servlet.FilterChain for chain
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithChainParam with specific params
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule is a filtering rule
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/$, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/$, null 1)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithReturnedObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithReturnedObj(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithReturnedObj(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithReturnedObj(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithReturnedObj(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithReturnedObj(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 1 (^/$, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 1 (^/$, null 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithChainParam(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, javax.servlet.FilterChain) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@366573
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@13e75a5
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 2 (javax.servlet.FilterChain): org.tuckey.web.testhelper.MockFilterChain@19da967
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithChainParam(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, javax.servlet.FilterChain) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@366573
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@13e75a5
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 2 (javax.servlet.FilterChain): org.tuckey.web.filters.urlrewrite.RuleChain@1dcc2a3
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 1 run called with /
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Run DEBUG: running org.tuckey.web.filters.urlrewrite.test.TestRunObj.runWithReturnedObj(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) 
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 0 (javax.servlet.http.HttpServletRequest): org.tuckey.web.testhelper.MockRequest@366573
+org.tuckey.web.filters.urlrewrite.Run DEBUG: argument 1 (javax.servlet.http.HttpServletResponse): org.tuckey.web.testhelper.MockResponse@13e75a5
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to null
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: rule is last
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: 'to' is empty, no rewrite, only 'set' and or 'run'
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (noSub, - 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (noSub, - 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (noS, changed 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (noS, changed 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (noSub, - 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (noSub, - 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 1 (noS, changed 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 1 (noS, changed 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /path/noSub
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /path/noSub
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: 'to' is '-', no substitution, passing through URL
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs no substitution
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: rule is last
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing request for /path/noSu
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /path/noSu
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 1 run called with /path/noSu
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /path/changedu
+

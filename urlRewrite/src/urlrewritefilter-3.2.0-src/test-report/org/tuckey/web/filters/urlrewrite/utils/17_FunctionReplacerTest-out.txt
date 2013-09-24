@@ -1,0 +1,22 @@
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: function ${lower:HElLO} type: lower, name: 'HElLO'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: hello
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is ahellob
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: function ${upper:hellO} type: upper, name: 'hellO'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: HELLO
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is aHELLOb
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: function ${replace:a b c: :_} type: replace, name: 'a b c: :_'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: a_b_c
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is aa_b_cb
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: function ${replaceFirst:a b c: :_} type: replaceFirst, name: 'a b c: :_'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: a_b c
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is aa_b cb
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: function ${escape:a b c} type: escape, name: 'a b c'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: a+b+c
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is aa+b+c b
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: function ${trim: b } type: trim, name: ' b '
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: b
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is ab b
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: function ${length:asdf} type: length, name: 'asdf'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: 4
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is a4 b
+

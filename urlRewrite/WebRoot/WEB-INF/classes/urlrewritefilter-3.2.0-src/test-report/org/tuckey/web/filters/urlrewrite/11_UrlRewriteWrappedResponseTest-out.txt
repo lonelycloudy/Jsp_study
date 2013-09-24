@@ -1,0 +1,30 @@
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule Outbound Rule 0 (/aaa, /bbb)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /aaa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with /aaa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: "Outbound Rule 0" matched
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /bbb;mockencoded=test
+avg so far 1.812ms per rule
+avg so far 1.734ms per rule
+avg so far 1.656ms per rule
+avg so far 1.703ms per rule
+avg so far 1.7748ms per rule
+avg so far 1.7756667ms per rule
+avg so far 1.7362857ms per rule
+avg so far 1.7185ms per rule
+avg so far 1.722ms per rule
+avg so far 1.6966ms per rule
+avg so far 1.6872727ms per rule
+avg so far 1.7158333ms per rule
+avg so far 1.7016923ms per rule
+avg so far 1.6917143ms per rule
+avg so far 1.6810666ms per rule
+avg so far 1.699ms per rule
+avg so far 1.7075294ms per rule
+avg so far 1.7097778ms per rule
+avg so far 1.6987368ms per rule
+took 16919ms 1.6919ms per rule
+

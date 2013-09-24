@@ -1,0 +1,468 @@
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (simple(ass), $1simple 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (simple(ass), $1simple 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with simpleass
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to asssimple
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/visa.jsp/([0-9]+)$, /visa.jsp?Idet=$1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/visa.jsp/([0-9]+)$, /visa.jsp?Idet=$1 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /visa.jsp/974210592
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /visa.jsp?Idet=974210592
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, null 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, null 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleBase TRACE: setting sttributes
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set status null 302 called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting status
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to null
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, to 4)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, to 4)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: to needs to be pre included
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header hdr aaa([a-z]+)cc(c)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (([a-z])rom, from match: $1, backref1: %1, backref2: %2, bad backref: %a % %99 %%88, escaped backref: \%2 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (([a-z])rom, from match: $1, backref1: %1, backref2: %2, bad backref: %a % %99 %%88, escaped backref: \%2 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "aaafffccc" against aaa([a-z]+)cc(c)
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 1
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 2
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 9
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer ERROR: backref %9 not found in conditon 
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: condition matcher: org.tuckey.web.filters.urlrewrite.utils.RegexMatcher@15601ea
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 8
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer ERROR: backref %8 not found in conditon 
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: condition matcher: org.tuckey.web.filters.urlrewrite.utils.RegexMatcher@15601ea
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: replaced sb is from match: $1, backref1: fff, backref2: c, bad backref: %a % 9 %8, escaped backref: \%2
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to from match: f, backref1: fff, backref2: c, bad backref: %a % 9 %8, escaped backref: %2
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header hdr aaa-*-cc-*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (*rom, from match: $1, backref1: %1, backref2: %2, bad backref: %a % %99 %%88, escaped backref: \%2 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (*rom, from match: $1, backref1: %1, backref2: %2, bad backref: %a % %99 %%88, escaped backref: \%2 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "aaa-fff-cc-c" against aaa-*-cc-*
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 1
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 2
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 9
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer ERROR: backref %9 not found in conditon 
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: condition matcher: org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher@119c082
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 8
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer ERROR: backref %8 not found in conditon 
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: condition matcher: org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher@119c082
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: replaced sb is from match: $1, backref1: fff, backref2: c, bad backref: %a % 9 %8, escaped backref: \%2
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: found 1
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is from match: f, backref1: fff, backref2: c, bad backref: %a % 9 %8, escaped backref: %2
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to from match: f, backref1: fff, backref2: c, bad backref: %a % 9 %8, escaped backref: %2
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition server-name null ^([^.]+)\.domain\.com
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/(.*), /%1/$1 0)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/(.*), /%1/$1 0)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "server.domain.com" against ^([^.]+)\.domain\.com
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 1
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: replaced sb is /server/$1
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be redirected to /server/from
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header hdr aaa([a-z]+)ccc
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (([a-z])rom, $1 to %{remote-host} %1 here \%2 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (([a-z])rom, $1 to %{remote-host} %1 here \%2 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "aaabbbccc" against aaa([a-z]+)ccc
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{remote-host} type: remote-host
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: server!
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is $1 to server! %1 here \%2
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: found 1
+org.tuckey.web.filters.urlrewrite.BackReferenceReplacer DEBUG: replaced sb is $1 to server! bbb here \%2
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to f to server! bbb here %2
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, start ctx: %{context-path}, hdr: %{header:bananna} %{header:}%{::}%{%{}, escaped var: \%{ignoreme!}, bad var: %{} %{wibble} end 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, start ctx: %{context-path}, hdr: %{header:bananna} %{header:}%{::}%{%{}, escaped var: \%{ignoreme!}, bad var: %{} %{wibble} end 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{context-path} type: context-path
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: ctxpath
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{header:bananna} type: header, name: 'bananna'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: bender
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{header:} type: header:
+org.tuckey.web.filters.urlrewrite.VariableReplacer ERROR: variable %{header:} type 'header:' not a valid type
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: 
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{::} type: , name: ':'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: 
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{%{} type: %{
+org.tuckey.web.filters.urlrewrite.VariableReplacer ERROR: variable %{%{} type '%{' not a valid type
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: 
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{} type: 
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: 
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{wibble} type: wibble
+org.tuckey.web.filters.urlrewrite.VariableReplacer ERROR: variable %{wibble} type 'wibble' not a valid type
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: 
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is start ctx: ctxpath, hdr: bender , escaped var: \%{ignoreme!}, bad var:   end
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to start ctx: ctxpath, hdr: bender , escaped var: %{ignoreme!}, bad var:   end
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value aaa is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null aaa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: failed to load rule
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: failed to load rule
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: not valid, skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 90
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 99
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 88  90
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 88  99
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 90  90
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 90  99
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to to
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 99  90
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 99  99
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to to
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 90
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition character-encoding null utf8
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 88  90
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against utf8
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 90  90
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against utf8
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 90  90
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "utf8" against utf8
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to to
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition request-uri null /hi-something-to-to.html
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (-, _ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (-, _ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /hi-something-to-to.html
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "/hi-something-to-to.html" against /hi-something-to-to.html
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /hi_something_to_to.html
+org.tuckey.web.filters.urlrewrite.NormalRule ERROR: Rule Rule 0 had error: from (fro[m) is an invalid expression - java.util.regex.PatternSyntaxException: Unclosed character class near index 4
+fro[m
+    ^
+org.tuckey.web.filters.urlrewrite.RuleBase ERROR: from (fro[m) is an invalid expression - java.util.regex.PatternSyntaxException: Unclosed character class near index 4
+fro[m
+    ^
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (fro[m, to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: failed to load rule
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: not valid, skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header agent aAa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (fRom, to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (fRom, to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "aaa" against aAa
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to to
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, to 2)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, to 2)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be permanentely redirected to to
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: not initialised, skipping
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: not enabled, skipping
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/countries/([a-z]+)/, /countries/index.jsp?c=$1 0)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/countries/([a-z]+)/, /countries/index.jsp?c=$1 0)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /countries/australia/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be redirected to /countries/index.jsp?c=australia
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /blah/
+org.tuckey.web.filters.urlrewrite.RuleBase TRACE: no match on "from" for /countries/([a-z]+)/ and /blah/
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 5050
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 5050  5050
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to to
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header host short\.com
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^(.*)$, http://short.com/context$1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^(.*)$, http://short.com/context$1 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /blahurl
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "short.com" against short\.com
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /blahurl
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "www.notexample.com" against short\.com
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to http://short.com/context/blahurl
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/$, /opencms/opencms/index.html 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/$, /opencms/opencms/index.html 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /opencms/opencms/index.html
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /xyz
+org.tuckey.web.filters.urlrewrite.RuleBase TRACE: no match on "from" for /$ and /xyz
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/~quux/foo$, /~quux/foo/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/~quux/foo$, /~quux/foo/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /~quux/foo
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /~quux/foo/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/products/([0-9]+), /index.jsp?product_id=$1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/products/([0-9]+), /index.jsp?product_id=$1 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /products/105874
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /index.jsp?product_id=105874
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/([a-z]+)/$, /$1/index.jsp 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/([a-z]+)/$, /$1/index.jsp 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /dir/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /dir/index.jsp
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/article/([0-9]+)/([0-9]+)/([0-9]+)/([a-zA-Z0-9]+)/, /article/index.jsp?year=$1&month=$2&day=$3&code=$4 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/article/([0-9]+)/([0-9]+)/([0-9]+)/([a-zA-Z0-9]+)/, /article/index.jsp?year=$1&month=$2&day=$3&code=$4 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /article/blah/
+org.tuckey.web.filters.urlrewrite.RuleBase TRACE: no match on "from" for /article/([0-9]+)/([0-9]+)/([0-9]+)/([a-zA-Z0-9]+)/ and /article/blah/
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition user-in-role admin admin
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition user-in-role boss boss
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (from, to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role admin op 2
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role boss op 2
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to to
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role admin op 2
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role boss op 2
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/logo\.gif$, http://de010009\.de\.ina\.com:8080/urlrewrite/artifact_type\.gif 2)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/logo\.gif$, http://de010009\.de\.ina\.com:8080/urlrewrite/artifact_type\.gif 2)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /logo.gif
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be permanentely redirected to http://de010009.de.ina.com:8080/urlrewrite/artifact_type.gif
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/aa\?a=(.*), $1 2)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/aa\?a=(.*), $1 2)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /aa?a=?
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be permanentely redirected to ?
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition cookie abcdef null
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/a\.jsp, /b.jsp 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/a\.jsp, /b.jsp 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a.jsp
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition cookie abcdef null
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/a\.jsp, /b.jsp 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/a\.jsp, /b.jsp 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a.jsp
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /b.jsp
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/*/, /b/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/*/, /b/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a12sfg-+\?#/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /b/
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /b/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/*/*/, /b/c/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/*/*/, /b/c/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /z23434/-+=asd/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /b/c/
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /b/c/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/*/*/, /to/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/*/*/, /to/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a/b/c/
+org.tuckey.web.filters.urlrewrite.RuleBase TRACE: no match on "from" for /*/*/ and /a/b/c/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/**/, /to/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/**/, /to/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a/b/c
+org.tuckey.web.filters.urlrewrite.RuleBase TRACE: no match on "from" for /**/ and /a/b/c
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/**/, /to/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/**/, /to/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a/b/c/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /to/
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /to/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (**.html, /to/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (**.html, /to/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a/b/c/sldwe.html
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /to/
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /to/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (*.html, /to/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (*.html, /to/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a/b/c/sldwe.html
+org.tuckey.web.filters.urlrewrite.RuleBase TRACE: no match on "from" for *.html and /a/b/c/sldwe.html
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/a/b/c/*.html, /to/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/a/b/c/*.html, /to/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a/b/c/sldwe.html
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /to/
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /to/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/*.h, /$1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/*.h, /$1 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a.h
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: found 1
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /a
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /a
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/**, /d/$1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/**, /d/$1 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /a/b/c
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: found 1
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /d/a/b/c
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /d/a/b/c
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/*/a/*/aa, /a/$2$1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/*/a/*/aa, /a/$2$1 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /w/a/c/aa
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: found 2
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: found 1
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /a/cw
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /a/cw
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition server-name null dev*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/from, /to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/from, /to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "dev.googil.com" against dev*
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /to
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /to
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition content-type null image/*
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/from, /to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/from, /to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "image/jpeg" against image/*
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /to
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /to
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition context-path null /a/**
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (/from, /to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (/from, /to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "/a/b/c" against /a/**
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher DEBUG: replaced sb is /to
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /to
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 90
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule's from is blank, setting to ^(.*)$
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^(.*)$, to 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^(.*)$, to 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 88  90
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 90  90
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to to
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header user-agent iexplore
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule's from is blank, setting to ^(.*)$
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^(.*)$, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^(.*)$, null 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "firefox" against iexplore
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome false
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions do not match
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with from
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "iexplore" against iexplore
+org.tuckey.web.filters.urlrewrite.Condition TRACE: outcome true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: conditions match
+org.tuckey.web.filters.urlrewrite.RuleBase TRACE: setting sttributes
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set request browser ie called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request attrib
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: 'to' is empty, no rewrite, only 'set' and or 'run'
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/[^/]+/(.+)-S_[0-9]+\.html$, /liste/query/${replace:$1:-:+}/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/[^/]+/(.+)-S_[0-9]+\.html$, /liste/query/${replace:$1:-:+}/ 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /ab/as-as-S_12.html
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: function ${replace:as-as:-:+} type: replace, name: 'as-as:-:+'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: as+as
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is /liste/query/as+as/
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /liste/query/as+as/
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (^/goanothercontext/, /other/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (^/goanothercontext/, /other/ 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: looking for context othercontext
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: got context ok
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Rule 0 run called with /goanothercontext/aaa.html
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to /other/aaa.html
+

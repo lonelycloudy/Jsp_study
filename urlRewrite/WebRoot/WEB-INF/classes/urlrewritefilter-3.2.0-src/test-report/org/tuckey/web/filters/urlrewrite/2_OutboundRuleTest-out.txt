@@ -1,0 +1,67 @@
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule Outbound Rule 0 (^/jsp-examples/cal/links.jsp\?id=([0-9]+), /jsp-examples/cal/links/$1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /jsp-examples/cal/links.jsp?id=46
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with /jsp-examples/cal/links.jsp?id=46
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: "Outbound Rule 0" matched
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /jsp-examples/cal/links/46;mockencoded=test
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule Outbound Rule 0 (^/storeitem.html\?vid=20060621001&amp;iid=([0-9]+)&amp;cid=([0-9]+)$, /storeitem/id$1/c$2)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /storeitem.html?vid=20060621001&amp;iid=666&amp;cid=555
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with /storeitem.html?vid=20060621001&amp;iid=666&amp;cid=555
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: "Outbound Rule 0" matched
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /storeitem/id666/c555;mockencoded=test
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule Outbound Rule 0 (^/world\.jsp\?country=([a-z]+)&city=([a-z]+)$, /world/$1/$2)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /world.jsp?country=usa&city=nyc
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with /world.jsp?country=usa&city=nyc
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: "Outbound Rule 0" matched
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /world/usa/nyc;mockencoded=test
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule Outbound Rule 0 (^(.*);mockencoded=.*?(\?.*)?$, $1$2)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for a.jsp?aaa=bbb
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for a.jsp;mockencoded=test?aaa=bbb
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with a.jsp;mockencoded=test?aaa=bbb
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: "Outbound Rule 0" matched
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for a.jsp
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for a.jsp;mockencoded=test
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with a.jsp;mockencoded=test
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: "Outbound Rule 0" matched
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule Outbound Rule 0 (^(?![a-z]+:)(.*);jsessionid=.*?([\?|\#].*)?$, $1$2)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /boo.jsp
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /boo.jsp;mockencoded=test
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with /boo.jsp;mockencoded=test
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /boo.jsp?somethingloi=1
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /boo.jsp;mockencoded=test?somethingloi=1
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with /boo.jsp;mockencoded=test?somethingloi=1
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /boo.jsp;jsessionid=91C4977F91B3CF69D2085B1B42BD5EB0?somethingloi=1
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for /boo.jsp;jsessionid=91C4977F91B3CF69D2085B1B42BD5EB0;mockencoded=test?somethingloi=1
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with /boo.jsp;jsessionid=91C4977F91B3CF69D2085B1B42BD5EB0;mockencoded=test?somethingloi=1
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: "Outbound Rule 0" matched
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for http://localhost:8080/boo.jsp;jsessionid=91C4977F91B3CF69D2085B1B42BD5EB0?somethingloi=1
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for http://localhost:8080/boo.jsp;jsessionid=91C4977F91B3CF69D2085B1B42BD5EB0?somethingloi=1
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with http://localhost:8080/boo.jsp;jsessionid=91C4977F91B3CF69D2085B1B42BD5EB0?somethingloi=1
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule Outbound Rule 0 (browse.ac\?countryCode=([a-z]+)&amp;stateCode=([a-z])&amp;city=([a-z\s]+)$, %{context-path}/location/$1/$2/$3)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for browse.ac?countryCode=US&stateCode=NY&city=New York
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: Outbound Rule 0 run called with browse.ac?countryCode=US&stateCode=NY&city=New York
+org.tuckey.web.filters.urlrewrite.UrlRewriter DEBUG: processing outbound url for browse.ac;mockencoded=test?countryCode=US&stateCode=NY&city=New York
+

@@ -1,0 +1,296 @@
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition time null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition year null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition month null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition dayofmonth null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition dayofweek null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition ampm null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition hourofday null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition minute null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition second null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition millisecond null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: you must set a name for attributes
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition attribute null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition auth-type null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition character-encoding null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition content-length null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition content-type null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition context-path null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value isn't empty but pattern is, assuming checking for existence, condition true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition cookie null null
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: you must set a name for a header
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition method null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value isn't empty but pattern is, assuming checking for existence, condition true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition parameter null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition path-info null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition path-translated null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition protocol null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition query-string null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition remote-addr null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition remote-host null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition remote-user null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition requested-session-id null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition request-uri null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition request-url null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: you must set a name for session attributes
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition session-attribute null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition session-isnew null null
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value null is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition server-name null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition scheme null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition user-in-role null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role null op 0
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: you must set a name for a header
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Problem compiling regular expression aaa[ (java.util.regex.PatternSyntaxException: Unclosed character class near index 3
+aaa[
+   ^)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header null aaa[
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Next badand is not valid (can be 'and', 'or')
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: you must set a name for a header
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header null null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not initialised skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header a aaa
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "aAa" against aaa
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "aaa" against aaa
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Type bogus is not valid
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: initialising instanceof condition
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition attribute obj org.tuckey.web.filters.urlrewrite.ConditionTest
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is class org.tuckey.web.filters.urlrewrite.ConditionTest an instanceof class org.tuckey.web.filters.urlrewrite.ConditionTest
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: yes
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is class org.tuckey.web.filters.urlrewrite.ConditionTest$ConditionTestExtended an instanceof class org.tuckey.web.filters.urlrewrite.ConditionTest
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: yes
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 9
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 10 greater 9
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 11
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 10 less 11
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 10
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 10 greaterorequal 10
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 10
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 10 lessorequal 10
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 99
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 10 notequal 99
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition method null POST
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "GET" against POST
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Operator somebadassop is not valid
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition time null 1228339598706
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 1228339598706 greaterorequal 1228339598706
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition year null 2008
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 2008  2008
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition month null 11
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 11  11
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition dayofmonth null 4
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 4  4
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition dayofweek null 5
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 5  5
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition ampm null 0
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 0  0
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition hourofday null 10
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 10  10
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition minute null 26
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 26  26
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition second null 38
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 38  38
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition millisecond null 722
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 722 greaterorequal 722
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition attribute ray andchristian
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: ray doesn't exist
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against andchristian
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "andchristian" against andchristian
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition attribute ray andbob
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "andchristian" against andbob
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: you must set a name for attributes
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition attribute null andbob
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition auth-type null pwd[a-z0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "pwdwithcrapasrot13" against pwd[a-z0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition auth-type null someotherpwdtype
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "pwdwithcrapasrot13" against someotherpwdtype
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition character-encoding null utfcrazybig[0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against utfcrazybig[0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "utfcrazybig13" against utfcrazybig[0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition content-length null 100
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 120 greater 100
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 10 greater 100
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition content-type null bott[a-z]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "bottlesandcans" against bott[a-z]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against bott[a-z]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition context-path null [a-b]lah
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "blah" against [a-b]lah
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "qlah" against [a-b]lah
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition cookie tracker .*bass.*
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "allyourbassisbelongtous" against .*bass.*
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition local-port null 1004
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 4  1004
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 1004  1004
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition parameter reqparam [0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against [0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "1000245" against [0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition parameter reqparam 
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition parameter reqparam 
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value isn't empty but pattern is, assuming checking for existence, condition true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition parameter reqparam 
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value isn't empty but pattern is, assuming checking for existence, condition true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition parameter reqparam 
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value isn't empty but pattern is, assuming checking for existence, condition true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition path-info null afr[aeiou]ca
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against afr[aeiou]ca
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "africa" against afr[aeiou]ca
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition path-translated null /!@&
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against /!@&
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "/!@&" against /!@&
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition protocol null HTTP/1\.[1-2]
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "HTTP/2.0" against HTTP/1\.[1-2]
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "HTTP/1.2" against HTTP/1\.[1-2]
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition query-string null .*&param=[0-9]+.*
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against .*&param=[0-9]+.*
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "?aaa=dsdsd&param=2333&asdsa=sdds" against .*&param=[0-9]+.*
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition remote-addr null 192.168.[0-9]+.[0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against 192.168.[0-9]+.[0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "192.168.184.23" against 192.168.[0-9]+.[0-9]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition remote-host null \w+\.tuckey.org
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against \w+\.tuckey.org
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "toaster.tuckey.org" against \w+\.tuckey.org
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition remote-user null p.\w+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against p.\w+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "p.smith" against p.\w+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition requested-session-id null \w+\.sec[0-6]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against \w+\.sec[0-6]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "sdfjsdfhkjhk897fd.sec03" against \w+\.sec[0-6]+
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition request-uri null \d
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against \d
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "2" against \d
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition request-url null \d
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against \d
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "2" against \d
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: you must set a name for session attributes
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition session-attribute null someval
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition session-attribute someatt someval
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: someatt doesn't exist
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against someval
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition session-attribute someatt someval
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "someval" against someval
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition session-isnew null yes
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition server-name null dev.*
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against dev.*
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "dev.googil.com" against dev.*
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition scheme null http
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against http
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "http" against http
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header some header tester
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "" against tester
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "tester" against tester
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: you must set a name for a header
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header    tester
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header bonus null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value isn't empty but pattern is, assuming checking for existence, condition true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is blank initing pattern to null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header portashed null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value is empty and pattern is also, condition false
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: value isn't empty but pattern is, assuming checking for existence, condition true
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition method null H[A-Z]AD
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating "HEAD" against H[A-Z]AD
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition user-in-role devil null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role devil op 0
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition user-in-role angel null
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role angel op 0
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition user-in-role devil devil
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role devil op 0
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition user-in-role admin admin
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: is user in role admin op 2
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: not equal operator in use
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 9001
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 9001  9001
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null  9001
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 9001  9001
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null  9001
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: evaluating with operator, is 9001  9001
+org.tuckey.web.filters.urlrewrite.Condition ERROR: Condition 0 had error: Value aaa is not a valid number (tried to cast to java type long)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null aaa
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: condition not valid skipping
+

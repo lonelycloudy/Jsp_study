@@ -1,0 +1,7 @@
+org.tuckey.web.filters.urlrewrite
+org.tuckey.web.filters.urlrewrite.extend
+org.tuckey.web.filters.urlrewrite.functions
+org.tuckey.web.filters.urlrewrite.json
+org.tuckey.web.filters.urlrewrite.sample
+org.tuckey.web.filters.urlrewrite.test
+org.tuckey.web.filters.urlrewrite.utils

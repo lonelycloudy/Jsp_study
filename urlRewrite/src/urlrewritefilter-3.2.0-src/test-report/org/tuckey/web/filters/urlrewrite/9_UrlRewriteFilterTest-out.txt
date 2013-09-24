@@ -1,0 +1,6 @@
+org.tuckey.web.filters.urlrewrite.UrlRewriteFilter ERROR: unable to init filter as filter config is null
+org.tuckey.web.filters.urlrewrite.UrlRewriteFilter ERROR: unable to init as servlet context is null
+org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+3.2.0 build 1
+org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+

@@ -1,0 +1,83 @@
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: XML builder factory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: XML Parser: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: about to parse conf
+org.tuckey.web.filters.urlrewrite.ConfHandler DEBUG: Resolving to DTD /org/tuckey/web/filters/urlrewrite/dtds/urlrewrite3.2.dtd
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header user-agent basicvalue1
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 0 (basicfrom1, basicto1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 0 (basicfrom1, basicto1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: looking for context othercontext
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: got context ok
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port basicname2 9004
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Mega Rule (rule 1) (basicfrom2, basicto2 0)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Mega Rule (rule 1) (basicfrom2, basicto2 0)
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: making cookie for mycook, val:tuckey.org:96:/asdsad
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 2 (/some/olddir/(.*), null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 2 (/some/olddir/(.*), null 1)
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition port null 80
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 3 ((.*), https:///very/newdir/$1 0)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 3 ((.*), https:///very/newdir/$1 0)
+org.tuckey.web.filters.urlrewrite.ClassRule DEBUG: looking for matches will try with several arguments
+org.tuckey.web.filters.urlrewrite.ClassRule DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.ClassRule DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.TestRuleObj
+org.tuckey.web.filters.urlrewrite.ClassRule DEBUG: looking for trial will try with several arguments
+org.tuckey.web.filters.urlrewrite.ClassRule DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.ClassRule DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.TestRuleObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for run(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: nonDefaultRun
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(javax.servlet.ServletRequest)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(javax.servlet.ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for nonDefaultRun(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 6 (/run-me, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 6 (/run-me, null 1)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: runWithParam(int)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: parseClass found class int for int
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for runWithParam with specific params
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 7 (^/runWithParam/([0-9])+/$, null 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 7 (^/runWithParam/([0-9])+/$, null 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 8 (^/lowerMe/([A-Z])+/$, /lowerMe/${lower:$1} 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 8 (^/lowerMe/([A-Z])+/$, /lowerMe/${lower:$1} 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule default encode on to test (outbound rule 0) (a, b)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule null
+org.tuckey.web.filters.urlrewrite.OutboundRule DEBUG: loaded outbound rule Outbound Rule 1 (a, b)
+org.tuckey.web.filters.urlrewrite.CatchElem DEBUG: looking for class java.lang.ClassNotFoundException
+org.tuckey.web.filters.urlrewrite.Run DEBUG: initialising run
+org.tuckey.web.filters.urlrewrite.Run DEBUG: methodStr: trialException
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for class org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for trialException(ServletRequest, ServletResponse)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for trialException(javax.servlet.ServletRequest,javax.servlet.ServletResponse,java.lang.ClassNotFoundException)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for trialException(javax.servlet.ServletRequest,java.lang.ClassNotFoundException)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for trialException(javax.servlet.ServletResponse,java.lang.ClassNotFoundException)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: looking for trialException(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.ClassNotFoundException)
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found init methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: found destroy methodStr
+org.tuckey.web.filters.urlrewrite.Run DEBUG: getting new instance of org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Run DEBUG: about to run init(ServletConfig) on org.tuckey.web.filters.urlrewrite.test.TestRunObj
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+

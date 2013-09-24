@@ -1,0 +1,46 @@
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: XML builder factory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: XML Parser: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: about to parse conf
+org.tuckey.web.filters.urlrewrite.ConfHandler DEBUG: Resolving to DTD /org/tuckey/web/filters/urlrewrite/dtds/urlrewrite3.0.dtd
+org.tuckey.web.filters.urlrewrite.ConfHandler DEBUG: Couldn't resolve entity with no publicId, system id is file:/N:/projects/uw/build/test/org/tuckey/web/filters/urlrewrite/conf-test2-incl.xml
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: use-context set to true
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header user-agent basicvalue1
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule BasicFrom1 (rule 0) (basicfrom1, basicto1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule BasicFrom1 (rule 0) (basicfrom1, basicto1 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule BasicRule2 (rule 1) (basicfrom2, basicto2 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule BasicRule2 (rule 1) (basicfrom2, basicto2 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 2 (basicfrom3, basicto3 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 2 (basicfrom3, basicto3 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Included Rule (rule 3) (included, somewhere 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Included Rule (rule 3) (included, somewhere 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: BasicRule2 (rule 1) run called with basicfrom2
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: matched "from"
+org.tuckey.web.filters.urlrewrite.RuleExecutionOutput DEBUG: needs to be forwarded to basicto2
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: XML builder factory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: XML Parser: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: about to parse conf
+org.tuckey.web.filters.urlrewrite.ConfHandler DEBUG: Resolving to DTD /org/tuckey/web/filters/urlrewrite/dtds/urlrewrite3.0.dtd
+org.tuckey.web.filters.urlrewrite.ConfHandler DEBUG: Couldn't resolve entity with no publicId, system id is file:/N:/projects/uw/build/test/org/tuckey/web/filters/urlrewrite/conf-test2-incl.xml
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: use-context set to true
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: now initialising conf
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.Condition DEBUG: loaded condition header user-agent basicvalue1
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule BasicFrom1 (rule 0) (basicfrom1, basicto1 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule BasicFrom1 (rule 0) (basicfrom1, basicto1 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule BasicRule2 (rule 1) (basicfrom2, basicto2 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule BasicRule2 (rule 1) (basicfrom2, basicto2 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Rule 2 (basicfrom3, basicto3 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Rule 2 (basicfrom3, basicto3 1)
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: rule match type is wildcard
+org.tuckey.web.filters.urlrewrite.RuleBase DEBUG: loaded rule Included Rule (rule 3) (included, somewhere 1)
+org.tuckey.web.filters.urlrewrite.NormalRule DEBUG: loaded rule Included Rule (rule 3) (included, somewhere 1)
+org.tuckey.web.filters.urlrewrite.Conf DEBUG: conf status true
+

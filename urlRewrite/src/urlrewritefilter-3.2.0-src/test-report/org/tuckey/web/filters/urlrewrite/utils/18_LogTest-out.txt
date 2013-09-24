@@ -1,0 +1,3 @@
+org.tuckey.web.filters.urlrewrite.utils.Log ERROR: no filter config passed
+null DEBUG: hi
+

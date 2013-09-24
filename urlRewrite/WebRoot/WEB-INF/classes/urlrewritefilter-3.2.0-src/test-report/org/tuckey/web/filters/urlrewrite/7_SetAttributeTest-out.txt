@@ -1,0 +1,45 @@
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set request blah mercuryrev called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request attrib
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set request blah Capture group 1 is $1 called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request attrib
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: making cookie for v, %{parameter:v}
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set cookie v %{parameter:v} called
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{parameter:v} type: parameter, name: 'v'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: 1234
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is 1234
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: making cookie for v, 1234
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding cookie
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set request v %{parameter:v} called
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: variable %{parameter:v} type: parameter, name: 'v'
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: resolved to: $2
+org.tuckey.web.filters.urlrewrite.VariableReplacer DEBUG: replaced sb is $2
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request attrib
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: calculating expires ms based on '1 days'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding '1' 'days'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: calculating expires ms based on '1 day'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding '1' 'day'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: calculating expires ms based on ' 1    day '
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding '1' 'day'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: calculating expires ms based on '1 day 4 seconds'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding '1' 'day'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding '4' 'seconds'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: calculating expires ms based on '1 year'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding '1' 'year'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: calculating expires ms based on '1 day   2  hours'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding '1' 'day'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding '2' 'hours'
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set expires null access plus 1 day   2  hours called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting expires
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set status null 999 called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting status
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: making cookie for mycook, someval dasd:blah.com:89009:/ass
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set cookie mycook someval dasd:blah.com:89009:/ass called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: making cookie for mycook, someval dasd:blah.com:89009:/ass
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: adding cookie
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set locale null en-NZ-slang called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting charset
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set parameter blah Capture group 1 is $1 called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request parameter
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: set Set method null PUT called
+org.tuckey.web.filters.urlrewrite.SetAttribute DEBUG: setting request method
+

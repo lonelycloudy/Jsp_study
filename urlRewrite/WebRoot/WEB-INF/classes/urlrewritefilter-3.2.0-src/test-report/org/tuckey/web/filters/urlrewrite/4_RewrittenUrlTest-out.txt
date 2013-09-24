@@ -1,0 +1,18 @@
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: doRewrite called
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: permanently redirected to /hi
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: doRewrite called
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: temporarily redirected to /hi
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: doRewrite called
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: forwarded to /hi
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: doRewrite called
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: redirected to /hi
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: doRewrite called
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: redirected to /hi;mockencoded=test
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: doRewrite called
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: preinclded /hi
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: doRewrite called
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: postinclded /hi
+time diff: 109ms
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: doRewrite called
+org.tuckey.web.filters.urlrewrite.RewrittenUrl TRACE: no substitution
+
